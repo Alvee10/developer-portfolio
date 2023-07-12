@@ -21,20 +21,22 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-title{
     color: #181818;
-font-family: Open Sans;
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 nav > ul{
     display: flex;
     align-items: center;
+    
 }
 
 nav li{
@@ -46,3 +48,17 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding-left: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+    
+}
+
